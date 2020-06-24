@@ -1,0 +1,28 @@
+body {
+  background-color: #000;
+}
+
+main {
+  margin-top: 25%;
+}
+
+main section {
+  border: 0.4em solid #fff;
+  padding: 0.1vh;
+  width: 25vh;
+  height: 7vh;
+  margin: auto;
+  color: #FFF;
+  text-align: center;
+  overflow: hidden;
+  transition: 1s ease-in-out;
+}
+
+main section:hover {
+  background: grey;
+  color: #000;
+  transform: scale(2.2);
+  animation-timing-function: 0.2 linear;
+  transition: 1s ease-in-out;
+}
+/*# sourceMappingURL=style.css.map */

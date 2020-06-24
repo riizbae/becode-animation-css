@@ -1,0 +1,21 @@
+body {
+  background-color: #000;
+}
+
+main section {
+  border: .4 em #fff;
+  padding: .75vh;
+  width: 7vh;
+  height: 3vh;
+  margin: auto;
+}
+
+main section p {
+  color: #fff;
+}
+
+main sectionhover {
+  background: #fff;
+  color: #000;
+}
+/*# sourceMappingURL=ex_1.css.map */

@@ -1,0 +1,25 @@
+body{
+    background-color:#000;
+    
+}
+
+main {
+
+    section {
+        border: 0.4em solid #fff;
+        padding: 0.1vh;
+        width:25vh;
+        height:7vh;
+        margin:auto;
+        color: #FFF;
+        text-align:center;
+        overflow:hidden;
+
+        &:hover{
+            background: grey;
+            color: #000;
+            transform: scale(1.1)
+        }
+       
+    }
+}
