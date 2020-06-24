@@ -4,6 +4,7 @@ body{
 }
 
 main {
+    margin-top:25%;
 
     section {
         border: 0.4em solid #fff;
@@ -14,11 +15,14 @@ main {
         color: #FFF;
         text-align:center;
         overflow:hidden;
+        transition: 1s ease-in-out;
 
         &:hover{
             background: grey;
             color: #000;
-            transform: scale(1.1)
+            transform: translate(50%);
+            animation-timing-function: 0.2 linear;
+            transition: 1s ease-in-out;
         }
        
     }

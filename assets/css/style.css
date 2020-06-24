@@ -21,7 +21,7 @@ main section {
 main section:hover {
   background: grey;
   color: #000;
-  transform: scale(2.2);
+  transform: translate(50%);
   animation-timing-function: 0.2 linear;
   transition: 1s ease-in-out;
 }
